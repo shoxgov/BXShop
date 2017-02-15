@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainbg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_cart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="18dip"
+        android:text="@string/shoopping_cart"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_cart_del_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="36dip"
+        android:layout_marginRight="18dip"
+        android:background="@null"
+        android:textColor="@color/gray"
+        android:text="@string/cart_del_selected" />
+
+</LinearLayout>

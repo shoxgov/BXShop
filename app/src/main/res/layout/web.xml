@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layerType="software" />
+
+    <include
+        android:id="@+id/web_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/progress" />
+
+</FrameLayout>

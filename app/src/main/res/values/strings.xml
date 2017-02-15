@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">贝翔商城</string>
+    <string name="action_settings">Settings</string>
+    <string name="goods_find">查询&#8230;</string>
+    <string name="goods_sort_price">商品</string>
+    <string name="goods_sort_sales">详情</string>
+    <string name="goods_sort_focus">评论</string>
+    <string name="goods_sort_putime">大</string>
+    <string name="goods_item_price">&#165;</string>
+    <string name="goods_item_value">好评度&#058;</string>
+    <string name="goods_item_left">&#040;</string>
+    <string name="goods_item_right">人&#041;</string>
+    <string name="goods_right">&#041;</string>
+
+    <!-- 商品详情页 -->
+    <string name="goods_brand">品牌&#058;</string>
+    <string name="goods_category">类型&#058;</string>
+    <string name="goods_name">名称&#058;</string>
+    <string name="goods_mode">类型&#058;</string>
+    <string name="goods_stock">库存&#058;</string>
+    <string name="goods_details">商品信息</string>
+    <string name="goods_count">购买数量</string>
+    <string name="goods_focus">晒单讨论</string>
+    <string name="goods_info">购买咨询</string>
+    <string name="goods_comment">评价(XO)</string>
+    <string name="goods_marking">好评&#160;&#160;</string>
+
+    <!-- 购物车 -->
+    <string name="shoopping_cart">购物车</string>
+    <string name="cart_all_sum">总计&#058;</string>
+    <string name="cart_product_sum">商品金额&#058;</string>
+    <string name="cart_price">单价&#160;&#165;</string>
+    <string name="cart_item_sum">金额&#160;&#165;</string>
+    <string name="cart_item_count">数量&#058;</string>
+    <string name="cart_item_number">类型&#058;</string>
+    <string name="cart_del_selected">删除选择商品</string>
+    <string name="cart_count">X</string>
+    <string name="cart_edit_count">修改购买数量</string>
+    <string name="cart_edit_ok">确定</string>
+    <string name="cart_edit_cancel">取消</string>
+
+    <!-- 提交订单 -->
+    <string name="order_linkman">联系人信息</string>
+    <string name="order_linkman_name">收件人&#058;</string>
+    <string name="order_linkman_phone">电话&#058;</string>
+    <string name="order_linkman_address">地址&#058;</string>
+    <string name="order_mode">支付及配送方式</string>
+    <string name="order_mode_pay">支付方式&#058;</string>
+    <string name="order_mode_send">配送方式&#058;</string>
+    <string name="order_send_time">送货时间&#058;</string>
+    <string name="order_has_bill">是否开票&#058;</string>
+    <string name="order_mode_hasbill">客户要求开票&#058;</string>
+    <string name="order_bill_account">开票账户&#058;</string>
+    <string name="order_other">其他要求</string>
+    <string name="order_goodslist">商品列表</string>
+    <string name="order_sum">应付金额&#058;</string>
+    <string name="order_put_order">提交订单</string>
+    <string name="order_sum_unit">元</string>
+    <string name="order_hasbill_yes">是</string>
+    <string name="order_hasbill_no">否</string>
+    <string name="order_ad_pro">省份&#058;</string>
+    <string name="order_ad_post">邮编&#058;</string>
+
+    <!-- 订单列表 -->
+    <string name="order_number">订单号&#058;</string>
+    <string name="order_lsum">订单金额&#058;</string>
+    <string name="order_state">订单状态&#058;</string>
+    <string name="order_time">下单时间&#058;</string>
+    <string name="order_client">收货地址&#058;</string>
+    <string name="order_route">订单跟踪</string>
+
+    <!-- 个人中心 -->
+    <string name="depart_name">部门&#058;</string>
+    <string name="job_title">职位&#058;</string>
+    <string name="exit_password">所有订单</string>
+    <string name="get_score">设置</string>
+    <string name="password_old">源码解压密码</string>
+    <string name="password_new">交流群</string>
+    <string name="password_test">确认新密码</string>
+    <!-- BX add -->
+    <string name="no_internet">无网络连接~!</string>
+    <string name="generic_server_down">连接服务器失败~!</string>
+    <string name="generic_error">网络异常,请稍后再试~!</string>
+    <string name="process_data_exception_try">数据处理异常,请重试!</string>
+    <!-- update -->
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">发现新版本</string>
+    <string name="soft_update_info">检测到新版本,立即更新吗?</string>
+    <string name="soft_update_error">更新软件失败,请检查网络环境！</string>
+    <string name="soft_update_download_error">更新软件下载失败,请检查网络环境！</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="storageless_clear_toast">内部存储空间不足，请清理内存或存储空间!</string>
+    <string name="force_update">强制更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_background">后台下载</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="download_success">下载完成</string>
+    <string name="download_error">下载失败!</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="download_pause_hint">你已在系统下载管理器中手动暂停了，请进下载管理器手动继续</string>
+    <string name="downloaded">已下载</string>
+    <!-- 微信 -->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+    <!-- WXMediaMessage -->
+    <string name="send">发送到微信</string>
+    <string name="receive">从微信接收</string>
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <!-- ################################################## -->
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登  录</string>
+    <string name="remember">记住密码</string>
+    <string name="login_info">请填写完信息</string>
+    <string name="homepage">首页</string>
+    <string name="category">分类</string>
+    <string name="shopping">购物车</string>
+    <string name="personal">我的</string>
+    <string name="cash_wallet">现金钱包:</string>
+    <string name="casino_point">返利:</string>
+    <string name="star_grade">星级:</string>
+    <string name="agree">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_notify">提醒</string>
+    <!-- pullrefresh -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉刷新</string>
+    <string name="xlistview_footer_hint_ready">正在加载...</string>
+    <string name="share_weixin">微信</string>
+    <string name="share_friends">朋友圈</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_qzone">QQ空间</string>
+    <string name="share_sinaweibo">新浪微博</string>
+    <string name="share_other">其它</string>
+
+</resources>

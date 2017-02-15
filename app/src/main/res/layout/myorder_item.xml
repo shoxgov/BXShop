@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/myorder_item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_alignParentLeft="true"
+            android:text="订单ID："
+            android:textColor="@color/grey" />
+        <TextView
+            android:id="@+id/myorder_item_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/myorder_item_del"
+            android:text="已完成"
+            android:textColor="@color/grey" />
+
+        <ImageView
+            android:id="@+id/myorder_item_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/drawable_delete" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@color/mainbg" />
+
+    <ListView
+        android:id="@+id/myorder_goodslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@color/mainbg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/myorder_item_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@color/mainbg"
+            android:paddingBottom="3dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="3dip"
+            android:text="订单详情"
+            android:textColor="@drawable/textcolor_gr"
+            android:textSize="@dimen/textSize_18" />
+
+        <TextView
+            android:id="@+id/myorder_item_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:layout_toLeftOf="@+id/myorder_item_total"
+            android:text="共XX件商品"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/myorder_item_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="实付款：29.00"
+            android:textColor="@color/textred"
+            android:textSize="@dimen/textSize_18" />
+    </RelativeLayout>
+
+</LinearLayout>

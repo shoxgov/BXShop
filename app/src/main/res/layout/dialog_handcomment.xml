@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainbg"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageButton
+            android:id="@+id/dialog_comment_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@mipmap/common_title_back_normal"
+            android:gravity="center"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_toRightOf="@+id/dialog_comment_back"
+            android:gravity="center"
+            android:text="发布评论"
+            android:textSize="@dimen/textSize_16" />
+
+        <TextView
+            android:id="@+id/dialog_comment_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="#e0ffff"
+            android:gravity="center"
+            android:padding="4dip"
+            android:text="提交"
+            android:textColor="@drawable/textcolor_gr"
+            android:textSize="@dimen/textSize_16" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="20dip"
+        android:paddingTop="10dip" >
+
+        <ImageView
+            android:id="@+id/dialog_comment_img"
+            android:layout_width="@dimen/goodsImageWidth"
+            android:layout_height="@dimen/goodsImageWidth"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/dialog_comment_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_toRightOf="@+id/dialog_comment_img"
+            android:gravity="center"
+            android:text="评分"
+            android:textSize="18dp" />
+
+        <RatingBar
+            android:id="@+id/dialog_comment_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dialog_comment_hint"
+            android:layout_below="@+id/dialog_comment_hint"
+            android:layout_marginTop="5dip"
+            android:isIndicator="false"
+            android:maxHeight="25dip"
+            android:minHeight="25dip"
+            android:numStars="5"
+            android:progressDrawable="@drawable/ratingbar_single_selector"
+            android:rating="5"
+            android:stepSize="1" />
+
+        <CheckBox
+            android:id="@+id/dialog_comment_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/dialog_comment_hint"
+            android:layout_marginRight="10dip"
+            android:button="@drawable/drawable_address_checked"
+            android:checked="false"
+            android:paddingLeft="5dip"
+            android:text="匿名评价" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/dialog_comment_content"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:background="@color/mainbg"
+        android:gravity="top|left"
+        android:hint="写下你的购买体会"
+        android:padding="5dip" />
+
+</LinearLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="头像"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <com.sq.bxstore.view.CircleImageView
+            android:id="@+id/iv_user_pic"
+            android:layout_width="@dimen/goodsImageWidth"
+            android:layout_height="@dimen/goodsImageWidth"
+            android:layout_marginRight="5dip"
+            android:padding="4dip"
+            android:src="@mipmap/pic" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/list_next_icon"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="昵称"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/person_setting_name"
+            style="@style/order_text_style"
+            android:layout_marginRight="5dip"
+            android:text="橡皮糖"
+            android:textColor="#666"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        android:id="@+id/person_setting_address_manager_layout"
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="收货地址管理"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/list_next_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        android:id="@+id/person_setting_update_layout"
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="检查升级"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/list_next_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        android:id="@+id/person_setting_clear_layout"
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="清空本地图片缓存"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/list_next_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <LinearLayout
+        android:id="@+id/person_setting_about_layout"
+        style="@style/order_ll_h"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/list_item_selector"
+        android:gravity="center_vertical"
+        android:padding="18dip" >
+
+        <TextView
+            style="@style/order_text_style"
+            android:text="关于"
+            android:textColor="#666"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/list_next_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="copyright@2014-2019"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="湖南贝翔电子科技有限公司"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/person_setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/drawable_buttonbg_red"
+        android:gravity="center"
+        android:paddingBottom="3dip"
+        android:paddingTop="3dip"
+        android:text="退出"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>

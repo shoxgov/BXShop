@@ -1,0 +1,107 @@
+<com.sq.bxstore.view.GoodsDetailTabbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gls_sort_mode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goods_sort_selector"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/detail_left_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/drawable_common_title_back"
+                android:gravity="center"
+                android:padding="3dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_sort_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_goodsdetail_general"
+                style="@style/goods_sort_bg_style" >
+
+                <TextView
+                    android:id="@+id/tv_goodsdetail_general"
+                    style="@style/goods_sort_name_style"
+                    android:textSize="@dimen/textSize_18"
+                    android:text="@string/goods_sort_price" />
+            </RelativeLayout>
+
+            <!-- <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/goods_sort_line" /> -->
+
+            <RelativeLayout
+                android:id="@+id/rl_goodsdetail_info"
+                style="@style/goods_sort_bg_style" >
+
+                <TextView
+                    android:id="@+id/tv_goodsdetail_info"
+                    style="@style/goods_sort_name_style"
+                    android:textSize="@dimen/textSize_18"
+                    android:text="@string/goods_sort_sales" />
+            </RelativeLayout>
+
+            <!-- <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/goods_sort_line" /> -->
+
+            <RelativeLayout
+                android:id="@+id/rl_goodsdetail_comment"
+                style="@style/goods_sort_bg_style" >
+
+                <TextView
+                    android:id="@+id/tv_goodsdetail_comment"
+                    style="@style/goods_sort_name_style"
+                    android:textSize="@dimen/textSize_18"
+                    android:text="@string/goods_sort_focus" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/iv_sort_down_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ll_sort_layout"
+        android:background="@color/mainbg" />
+
+    <com.sq.bxstore.view.ScrollLayout
+        android:id="@+id/sort_selected_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iv_sort_down_line" >
+
+        <ImageView
+            android:id="@+id/iv_sort_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000FF" />
+    </com.sq.bxstore.view.ScrollLayout>
+
+</com.sq.bxstore.view.GoodsDetailTabbar>

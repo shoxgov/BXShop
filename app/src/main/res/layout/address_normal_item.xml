@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="8dip"
+    android:paddingTop="8dip" >
+
+    <ImageView
+        android:id="@+id/address_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:padding="3dip"
+        android:src="@mipmap/address_default_tag" />
+
+    <LinearLayout
+        android:id="@+id/address_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/address_tag"
+        android:gravity="center_vertical"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/address_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="华为 Mate9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_16" />
+
+        <TextView
+            android:id="@+id/address_tel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="17773119860"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/address_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address_layout"
+        android:layout_below="@+id/address_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:layout_toLeftOf="@+id/address_right_line"
+        android:text="长沙区辐在西安十四华为 Mate9"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/textSize_14" />
+
+    <ImageView
+        android:id="@+id/address_right_line"
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/address_edit"
+        android:background="@color/mainbg" />
+
+    <ImageView
+        android:id="@+id/address_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:padding="3dip"
+        android:src="@mipmap/address_edit_img" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gridview_divider_selector"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:text="华为 Mate9"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize_20" />
+
+    <ImageView
+        android:id="@+id/item_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@mipmap/address_default_tag"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip" />
+
+</FrameLayout>

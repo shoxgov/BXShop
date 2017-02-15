@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/mainbg" />
+
+    <TextView
+        android:id="@+id/withdraw_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="10dip"
+        android:text="当前返利总额："
+        android:textColor="@color/textgrey"
+        android:textSize="@dimen/textSize_16" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:weightSum="4" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="提现类型:"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_18" />
+
+        <Spinner
+            android:id="@+id/withdraw_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="请选择提现类型"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_16" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="提现账号:"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_18" />
+
+        <EditText
+            android:id="@+id/widthdraw_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/shape_rect_edit_gray"
+            android:gravity="center"
+            android:hint="仅限微信和支付宝"
+            android:singleLine="true"
+            android:textColor="@color/textgrey"
+            android:textColorHint="@color/gray_dim"
+            android:textSize="@dimen/textSize_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="提现金额"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_18" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/widthdraw_number"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dip"
+            android:background="@drawable/shape_rect_edit_gray"
+            android:gravity="center"
+            android:text="77"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_18" />
+
+        <TextView
+            android:id="@+id/widthdraw_number_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="22dip"
+            android:text="元"
+            android:textColor="@color/textgrey"
+            android:textSize="@dimen/textSize_18" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <Button
+            android:id="@+id/widthdraw_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/drawable_buttonbg_red"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="立即申请"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <include
+        android:id="@+id/lv_goods_list_banner"
+        layout="@layout/goodlist_headview_layout"
+        android:visibility="gone" />
+
+    <com.sq.bxstore.view.XListView
+        android:id="@+id/lv_goods_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/mainbg"
+        android:dividerHeight="6dip"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+</LinearLayout>

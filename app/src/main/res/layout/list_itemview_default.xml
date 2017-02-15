@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f93b51"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/itemstyle_default_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_1_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="超级优惠来了"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="赶紧来狂欢"
+                android:textColor="@color/style_black_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_1_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_1_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="新品上架"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="美不胜收"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_1_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="澳门游满天"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="七天七夜"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/itemstyle_default_line_2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/mainbg" />
+
+    <LinearLayout
+        android:id="@+id/itemstyle_default_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_2_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="超级优惠来了"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="赶紧来狂欢"
+                android:textColor="@color/style_black_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_2_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_2_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="新品上架"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="美不胜收"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_2_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="澳门游满天"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="七天七夜"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/itemstyle_default_line_3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/mainbg" />
+
+    <LinearLayout
+        android:id="@+id/itemstyle_default_layout_3"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_3_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="新品上架"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="美不胜收"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_3_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="新品上架"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="美不胜收"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_3_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="新品上架"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="美不胜收"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@color/mainbg" />
+
+        <LinearLayout
+            android:id="@+id/itemstyle_default_layout_3_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itemstyle_default_name1_3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="澳门游满天"
+                android:textColor="@color/style_black_text" />
+
+            <TextView
+                android:id="@+id/itemstyle_default_name2_3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dip"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="七天七夜"
+                android:textColor="@color/style_black_text" />
+
+            <ImageView
+                android:id="@+id/itemstyle_default_img_3_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

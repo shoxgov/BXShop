@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <include layout="@layout/goods_list_sort" />
+
+    <FrameLayout
+        android:id="@+id/detail_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical" >
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#DEE0DF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#EFF1F0"
+        android:gravity="center_vertical"
+        android:padding="8dip" >
+
+        <ImageView
+            android:id="@+id/iv_product_cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dip"
+            android:background="@drawable/product_cs_selector" />
+
+        <ImageView
+            android:id="@+id/iv_product_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dip"
+            android:background="@drawable/product_buy_selector" />
+
+        <ImageView
+            android:id="@+id/iv_product_add_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dip"
+            android:layout_toLeftOf="@+id/iv_product_buy"
+            android:background="@drawable/product_add_cart_selector" />
+    </RelativeLayout>
+
+</LinearLayout>

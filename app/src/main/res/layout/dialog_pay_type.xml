@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:paddingBottom="6dip"
+        android:paddingLeft="12dip"
+        android:paddingTop="6dip"
+        android:text="选择支付类型"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="14dip"
+        android:background="#D2D2D2" />
+
+    <RadioGroup
+        android:id="@+id/dialog_pay_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+
+        <RadioButton
+            android:id="@+id/dialog_pay_alipay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="支付宝支付" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="14dip"
+            android:background="#D2D2D2" />
+
+        <RadioButton
+            android:id="@+id/dialog_pay_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:text="微信支付" />
+<!-- 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="14dip"
+            android:background="#D2D2D2" />
+
+        <RadioButton
+            android:id="@+id/dialog_pay_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:text="账户支付" /> -->
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="14dip"
+        android:background="#D2D2D2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:padding="12dip" >
+
+        <Button
+            android:id="@+id/dialog_pay_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dip"
+            android:background="@drawable/dialog_cancel_selector"
+            android:text="@string/cart_edit_cancel"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/dialog_pay_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_ok_selector"
+            android:text="@string/cart_edit_ok"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+</LinearLayout>

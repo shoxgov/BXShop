@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/address_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="3dip"
+        android:src="@mipmap/address_default_tag" />
+
+    <TextView
+        android:id="@+id/address_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/address_tag"
+        android:text="华为 Mate9" />
+
+    <TextView
+        android:id="@+id/address_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/address_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/address_name"
+        android:text="17773119860" />
+
+    <TextView
+        android:id="@+id/address_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address_name"
+        android:layout_below="@+id/address_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="3dip"
+        android:layout_toLeftOf="@+id/address_right_line"
+        android:text="长沙区辐在西安十四华为 Mate9" />
+
+    <ImageView
+        android:id="@+id/address_right_line"
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/address_edit"
+        android:background="@color/gray" />
+
+    <ImageView
+        android:id="@+id/address_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:padding="3dip"
+        android:src="@mipmap/address_edit_img" />
+
+</RelativeLayout>

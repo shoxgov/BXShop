@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="banner_height">150dp</dimen>
+    <dimen name="sortGridviewWidth">120dip</dimen>
+    <dimen name="sortGridviewHeight">120dip</dimen>
+    <dimen name="goodsImageWidth">80dip</dimen>
+    <dimen name="goodsImageHeight">80dip</dimen>
+    <dimen name="personImageWidth">100dip</dimen>
+    <dimen name="textSize_20">20dip</dimen>
+    <dimen name="textSize_18">18dip</dimen>
+    <dimen name="textSize_16">16dip</dimen>
+    <dimen name="textSize_14">14dip</dimen>
+    <dimen name="myorder_goodimg_size">60dip</dimen>
+    <dimen name="commentPhotoWidth">30dip</dimen>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_light" />
+
+    <com.sq.bxstore.view.XListView
+        android:id="@+id/person_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/mainbg"
+        android:dividerHeight="15dip"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+    <View
+        android:id="@+id/person_list_line"
+        android:layout_width="match_parent"
+        android:layout_height="15dip"
+        android:visibility="gone"
+        android:background="@color/mainbg" />
+
+</LinearLayout>

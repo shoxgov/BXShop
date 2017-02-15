@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainbg"
+    android:orientation="vertical"
+    android:paddingBottom="10dip" >
+
+    <ImageView
+        android:id="@+id/headview_banner_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/mainbg" />
+
+    <TextView
+        android:id="@+id/headview_banner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="活动" />
+
+    <TextView
+        android:id="@+id/headview_banner_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#e0ffff"
+        android:gravity="left|top"
+        android:padding="10dip"
+        android:text="活动" />
+
+</LinearLayout>
