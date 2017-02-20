@@ -108,6 +108,8 @@
             </intent-filter>
         </receiver>
         <service android:name="com.alibaba.tcms.service.TCMSService" android:exported="true" android:process=":TcmsService"/>
+        <meta-data android:value="58a54f7b7666136e16000eca" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="beixiangAndroid" android:name="UMENG_CHANNEL"/>
     </application>
 
 </manifest>

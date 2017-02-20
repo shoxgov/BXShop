@@ -20,16 +20,16 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_tribe_info_icon.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_as6.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_as6.png"
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg_orange.9.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg_orange.9.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_chatfrom_play_03.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_chatfrom_play_03.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg_orange.9.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg_orange.9.png"
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_as6.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_as6.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s086.png",
@@ -132,12 +132,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s057.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_shanchu_nm.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_shanchu_nm.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_comment_r_green_press.9.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_comment_r_green_press.9.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_shanchu_nm.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_shanchu_nm.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_g015.png",
@@ -320,12 +320,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_comment_r_press.9.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s051.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s051.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s047.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s047.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s051.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s051.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s033.png",
@@ -388,12 +388,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_photo_self_online.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_comment_l_green_press.9.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_comment_l_green_press.9.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s076.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s076.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_comment_l_green_press.9.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_comment_l_green_press.9.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_shortvideo.png",
@@ -404,12 +404,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s095.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_g018.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_g018.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_hide_menu_normal.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_reply_bar_hide_menu_normal.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_g018.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_g018.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_smily_tab_selected.9.png",
@@ -648,12 +648,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_editor_more_pressed.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s087.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s087.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s092.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s092.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_s087.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_s087.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_hide_menu_pressed.png",
@@ -664,12 +664,12 @@
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_g016.png"
     },
     {
-        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_fail_photo_left.9.png",
-        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_fail_photo_left.9.png"
-    },
-    {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_topbar_icon_message_nor.png",
         "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_topbar_icon_message_nor.png"
+    },
+    {
+        "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_fail_photo_left.9.png",
+        "source": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_fail_photo_left.9.png"
     },
     {
         "merged": "D:\\ASWorkspace\\BXShop\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_tribe_slice2.png",

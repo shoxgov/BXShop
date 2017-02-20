@@ -38,6 +38,7 @@ import com.sq.bxstore.utils.BitmapLruCache;
 import com.sq.bxstore.utils.Constants;
 import com.sq.bxstore.utils.CrashHandler;
 import com.sq.bxstore.utils.PreferenceUtil;
+import com.umeng.analytics.MobclickAgent;
 
 /**
 mdpi 		120dpi~160dpi
@@ -152,6 +153,7 @@ public class BXApplication extends Application {
 		crashHandler.init(this);
 		String SAVEPATH = Environment.getExternalStorageDirectory()
 				+ "/beixiang/ImageCache";
+		MobclickAgent.startWithConfigure(new MobclickAgent.UMAnalyticsConfig(this, "58a54f7b7666136e16000eca", "beixiangAndroid"));
 	}
 
 	/**

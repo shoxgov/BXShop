@@ -48,8 +48,7 @@
 -keep public class * extends android.webkit.*{*;}
 -keep public class * extends android.widget.*{*;}
 -keep public class * extends android.app.*{*;}
--keepattributes Exceptions,InnerClasses,Signature,Deprecated,
-                SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
 
 
 -keepclasseswithmembernames class * {
