@@ -24,6 +24,7 @@ import com.sq.bxstore.utils.PreferenceUtil;
 import com.sq.bxstore.utils.ToastTool;
 import com.sq.bxstore.utils.Utils;
 import com.sq.bxstore.utils.WaitTool;
+import com.umeng.analytics.MobclickAgent;
 
 public class LoginActivity extends Activity implements OnClickListener,
 		NetCallBack {
@@ -153,6 +154,7 @@ public class LoginActivity extends Activity implements OnClickListener,
 				UserInfoBean.userName = name;
 				PreferenceUtil.commitString("lastUsername", name);
 				PreferenceUtil.commitString("lastPassword", pass);
+				MobclickAgent.onProfileSignIn(UserInfoBean.userId+"");
 				Intent intent = new Intent();
 				intent.setClass(LoginActivity.this, MainFragmentActivity.class);
 				startActivity(intent);

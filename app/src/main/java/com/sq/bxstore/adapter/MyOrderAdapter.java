@@ -112,7 +112,7 @@ public class MyOrderAdapter extends BaseAdapter implements NetCallBack {
 		}
 		viewHolder.orderid.setText("订单ID："+ab.getId());
 		OrderGoodlistAdapter adapter;
-		String tag = "goodslistadapter"+position;
+		String tag = "goodslistadapter"+ab.getId();
 		if(adapterMap.containsKey(tag)){
 			adapter = adapterMap.get(tag);
 		}else{

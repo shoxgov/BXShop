@@ -19,11 +19,6 @@ import com.sq.bxstore.R;
 import com.sq.bxstore.bean.SettingItemInfo;
 
 /**
- * @Class: GridViewAdapter
- * @Package: com.unibroad.carphone.adapter
- * @Description: TODO(描述类作用)
- * @author: wsy@unibroad.com
- * @version: V1.0
  */
 public class PersonGridViewAdapter extends BaseAdapter {
 	private Context mContext;

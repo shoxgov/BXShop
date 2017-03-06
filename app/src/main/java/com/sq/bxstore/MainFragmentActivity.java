@@ -2,6 +2,7 @@ package com.sq.bxstore;
 
 import com.sq.bxstore.update.CheckAndUpdateApk;
 import com.sq.bxstore.utils.ToastTool;
+import com.umeng.analytics.MobclickAgent;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -62,6 +63,17 @@ public class MainFragmentActivity extends FragmentActivity {
 		rb_home.setChecked(true);
 	}
 
+	@Override
+	protected void onResume() {
+		super.onResume();
+		MobclickAgent.onResume(this);
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		MobclickAgent.onPause(this);
+	}
 
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {

@@ -153,7 +153,7 @@ public class BXApplication extends Application {
 		crashHandler.init(this);
 		String SAVEPATH = Environment.getExternalStorageDirectory()
 				+ "/beixiang/ImageCache";
-		MobclickAgent.startWithConfigure(new MobclickAgent.UMAnalyticsConfig(this, "58a54f7b7666136e16000eca", "beixiangAndroid"));
+		MobclickAgent.startWithConfigure(new MobclickAgent.UMAnalyticsConfig(this, "58a54f7b7666136e16000eca", "beixiangAndroid", MobclickAgent.EScenarioType.E_UM_NORMAL,true));
 	}
 
 	/**

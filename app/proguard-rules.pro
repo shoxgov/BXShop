@@ -142,6 +142,7 @@
 
 #避免混淆泛型 如果混淆报错建议关掉
 -keepattributes Signature
+#避免反射掉
 -keepattributes EnclosingMethod
 
 #移除Log类打印各个等级日志的代码，打正式包的时候可以做为禁log使用，这里可以作为禁止log打印的功能使用，另外的一种实现方案是通过BuildConfig.DEBUG的变量来控制
@@ -178,6 +179,10 @@
 # 如果使用了Gson之类的工具要使被它解析的JavaBean类即实体类不被混淆。
 -keep class com.matrix.app.entity.json.** { *; }
 -keep class com.matrix.appsdk.network.model.** { *; }
+#友盟代码混淆
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
 
 -keep class com.sq.bxstore.net.*
 -keep class com.sq.bxstore.net.** { *; }
